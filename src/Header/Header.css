@@ -1,0 +1,85 @@
+.header {
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+    padding: 0.2rem 0;
+}
+.container{
+    width: 100%;
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .logo {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+
+.header .logo img {
+    width: 90px;
+}
+
+.header .menu_buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header .menu_buttons .menus a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #333;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+.header .menu_buttons .menus a:hover {
+    color: #f36c25;
+}
+
+.header .menu_buttons .buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header .menu_buttons .buttons button {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.6rem 1rem;
+    margin-left: 1rem;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.header .menu_buttons .buttons button.login {
+    background: transparent;
+    border: 1px solid #f36c25;
+    color: #f36c25;
+}
+
+.header .menu_buttons .buttons button.professional {
+    background: #f36c25;
+    border: 1px solid #f36c25;
+    color: #fff;
+}
+
+.header .menu_buttons .buttons button.login:hover {
+    background: #f36c25;
+    border: 1px solid #f36c25;
+    color: #fff;
+}
+
+.header .menu_buttons .buttons button.professional:hover {
+
+    background: transparent;
+    border: 1px solid #f36c25;
+    color: #f36c25;
+}

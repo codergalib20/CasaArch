@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Project One",
+        "location": "Chennai",
+        "date": "Sep 9, 2017",
+        "status": "completed"
+    },
+    {
+        "name": "Project Two",
+        "location": "Chennai",
+        "date": "Sep 9, 2013",
+        "status": "completed"
+    },
+    {
+        "name": "Project Three",
+        "location": "Chennai",
+        "date": "Sep 9, 2015",
+        "status": "in Progress"
+    },
+    {
+        "name": "Project Four",
+        "location": "Chennai",
+        "date": "Sep 9, 2013",
+        "status": "completed"
+    },
+    {
+        "name": "Project Five",
+        "location": "Chennai",
+        "date": "Sep 9, 2013",
+        "status": "Not Completed"
+    },
+    {
+        "name": "Project Six",
+        "location": "Chennai",
+        "date": "Sep 9, 2012",
+        "status": "in Progress"
+    },
+    {
+        "name": "Project Seven",
+        "location": "Chennai",
+        "date": "Sep 9, 2017",
+        "status": "completed"
+    }
+]

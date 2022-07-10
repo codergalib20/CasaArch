@@ -1,0 +1,127 @@
+.make_post_box {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.make_post_box h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.make_post_box h2 span {
+    color: #F36C25;
+}
+
+.make_post_box p {
+    font-size: 1rem;
+    color: #777;
+    padding-top: 1rem;
+}
+
+.make_post_box button.add_post {
+    background: #F36C25;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    padding: 0.6rem 1rem;
+    color: #fff;
+    fill: #fff;
+    stroke: #fff;
+    cursor: pointer;
+}
+
+.make_post_box button.add_post svg path {
+    color: #fff;
+    fill: #fff;
+    stroke: #fff;
+}
+
+.make_post_box button.add_post svg {
+    font-size: 1.7rem;
+}
+
+.post_box {
+    border: 2px solid #888;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.post_box .box {
+    min-width: 800px;
+}
+
+.post_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #888;
+}
+
+.post_header div {
+    width: 20%;
+}
+
+.post_body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #999;
+    padding: 0.5rem 0;
+    color: #777;
+}
+
+.post_body:last-child {
+    border: none;
+}
+
+.post_body div {
+    width: 20%;
+}
+
+.post_body div button.status {
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    padding: 0.3rem 1rem;
+}
+
+.post_body div button.status.completed {
+    background: #1EB88A;
+}
+
+.post_body div button.status.in.progress {
+    background: #FCC418;
+}
+
+.post_body div button.status.not.completed {
+    background: #DC3545;
+}
+
+@media only screen and (max-width: 900px) {
+    .make_post_box {
+        flex-wrap: wrap;
+    }
+
+    .make_post_box button {
+        margin-top: 1rem;
+    }
+
+    .post_box {
+        overflow-x: scroll;
+    }
+    .post_box {
+        overflow-x: scroll;
+    }
+}

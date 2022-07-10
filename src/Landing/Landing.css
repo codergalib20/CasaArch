@@ -1,0 +1,74 @@
+.landing .container {
+    width: 100%;
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+.landing_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    margin-top: 4rem;
+    padding-bottom: 50px;
+}
+
+.landing h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.landing p {
+    font-size: 1rem;
+    color: #555;
+    padding: 1rem 0;
+}
+
+.landing span {
+    font-size: 1rem;
+    color: #555;
+}
+
+.landing .search_box {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    border: 1px solid #999;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+.landing .search_box span {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing .search_box input {
+    width: 75%;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #444;
+    border: none;
+    outline: none;
+    padding: 1rem;
+}
+
+.landing .search_box input:focus .landing .search_box {
+    border-color: #f36c25;
+}
+
+.landing .search_box button {
+    width: 15%;
+    outline: none;
+    border: none;
+    background: #f36c25;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.landing img {
+    max-width: 100%;
+}
