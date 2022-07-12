@@ -72,3 +72,30 @@
 .landing img {
     max-width: 100%;
 }
+.landing_image_body{
+    text-align: right;
+}
+/* Responsive */
+@media only screen and (max-width: 850px) {
+    .landing_wrapper {
+        grid-template-columns: 1fr;
+        max-width: 700px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .landing_info_body{
+        padding: 2rem 0;
+    }
+    .landing_image_body{
+        text-align: center;
+    }
+    .landing .search_box span{
+       width: 10%;
+    }
+    .landing .search_box input{
+        width: 70%;
+    }
+    .landing .search_box button{
+        width: 25%;
+    }
+}

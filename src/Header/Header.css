@@ -2,12 +2,14 @@
     box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
     padding: 0.2rem 0;
 }
-.container{
+
+.container {
     width: 100%;
     max-width: 1190px;
     margin: 0 auto;
     padding: 0 10px;
 }
+
 .header_wrapper {
     display: flex;
     align-items: center;
@@ -82,4 +84,77 @@
     background: transparent;
     border: 1px solid #f36c25;
     color: #f36c25;
+}
+.responsive_open_menu{
+    display: none;
+}
+.responsive_open_sidebar{
+    width: 250px;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    transition: all 0.5s linear;
+}
+.responsive_open_sidebar.opened{
+    left: 0;
+}
+.responsive_open_sidebar.closed{
+    left: -100%;
+}
+.responsive_close_sidebar{
+    font-size: 1.2rem !important;
+    color: #f36c25 !important;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+.responsive_open_sidebar .logo{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.responsive_open_sidebar .logo img{
+    margin: 0 auto;
+}
+.responsive_open_sidebar .menu_buttons .menus{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.responsive_open_sidebar .menu_buttons .menus a{
+    margin-top: 1rem;
+}
+.responsive_open_sidebar .menu_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.responsive_open_sidebar .menu_buttons .buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.responsive_open_sidebar .menu_buttons .buttons button{
+    margin-top: 1rem;
+}
+/* Responsive */
+@media only screen and (max-width: 850px) {
+    .big_display {
+        display: none;
+    }
+    .responsive_open_menu{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .responsive_open_menu span{
+        font-size: 2rem !important;
+        cursor: pointer;
+    }
 }

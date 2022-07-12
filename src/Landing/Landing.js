@@ -10,7 +10,7 @@ const Landing = () => {
             <Header />
             <div className="container">
                 <div className="landing_wrapper">
-                    <div>
+                    <div className='landing_info_body'>
                         <h2>We Help You To <br />
                             Make The Perfect CASA</h2>
                         <p>Interior design is an art and science of enhancing the interior of the building to acheive a healthier and more aesthetically</p>
@@ -21,7 +21,7 @@ const Landing = () => {
                             <button>Search</button>
                         </div>
                     </div>
-                    <div style={{ textAlign: "right" }}>
+                    <div className="landing_image_body">
                         <img src={landingImage} alt="" />
                     </div>
                 </div>
