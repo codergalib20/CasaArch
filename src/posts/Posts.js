@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Header from '../Header/Header';
 import "./Posts.css";
 import { GrFormAdd } from 'react-icons/gr';
+import Footer from '../components/Footer/Footer';
 const Posts = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [posts, setPosts] = useState([]);
@@ -65,6 +66,7 @@ const Posts = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };

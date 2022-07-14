@@ -1,20 +1,22 @@
 import React from 'react';
-import Footer from '../components/Footer/Footer';
-import Header from '../Header/Header';
-import "./AboutUs.css";
-const AboutUs = () => {
+import Header from '../../Header/Header';
+import Footer from '../Footer/Footer';
+import "./RefundReturn.css";
+
+
+const RefundReturn = () => {
     return (
         <div>
             <Header />
-            <div className='about_us_header'>About us</div>
+            <div className='refund_us_header'>Refund & Return</div>
             <div className="container">
-                <div className='about_us_details'>
+                <div className='refund_us_details'>
                     <p className="primary">Return</p>
                     <p>Product must be returned to us within ------- days from the date it has been delivered to the customer. Product must be returned with all tags attached in its original condition along with all packing material, courier receipt, invoice & other papers.</p>
-                    <p className="primary">Refund</p>
+                    <p className="primary">refund</p>
                     <p>Once the Product is received to the company successfully, ----Company Name---will instantly initiate the refund to your source account or chosen method of refund within --- working days.</p>
-                    <p className="primary">Refund and Cancellation for Service Provider Company</p>
-                    <p>Due to service providers in nature “NO REFUND”,“NO CANCELLATION” will be entertained once the Payment has been made.</p>
+                    <p className="primary">refund and Cancellation for Service Provider Company</p>
+                    <p>Due to service providers in nature “NO refund”,“NO CANCELLATION” will be entertained once the Payment has been made.</p>
                     <p className="primary">Cancellation Policy</p>
                     <p>Please note an order can only be canceled within 24 hours of placing the order. Once the order is processed after 24 hours, no cancellation request will be entertained.However return is possible for all orders/products.</p>
                     <p className="primary">Shipping & Delivery Policies -</p>
@@ -27,4 +29,4 @@ const AboutUs = () => {
     );
 };
 
-export default AboutUs;
+export default RefundReturn;

@@ -1,0 +1,24 @@
+.refund_us_header {
+    background: #f36c25;
+    color: #fff;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.refund_us_details {
+    padding: 30px 0;
+}
+.refund_us_details p{
+    font-size: 1rem;
+    color: #333;
+    font-weight: 400;
+    padding: 0.7rem 0;
+}
+.refund_us_details p.primary{
+    color: #f36c25;
+    font-weight: 600;
+}

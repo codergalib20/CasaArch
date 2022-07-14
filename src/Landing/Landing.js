@@ -1,6 +1,7 @@
 import React from 'react';
 import { FiSearch } from 'react-icons/fi';
 import landingImage from '../assets/rectangle1.png';
+import Footer from '../components/Footer/Footer';
 import Header from '../Header/Header';
 import './Landing.css';
 
@@ -26,6 +27,7 @@ const Landing = () => {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     );
 };
