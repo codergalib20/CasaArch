@@ -8,6 +8,7 @@ import Posts from './posts/Posts';
 import Privacy from './components/Privacy/Privacy';
 import TermConditions from './components/Terms/TermConditions';
 import RefundReturn from './components/RefundReturn/RefundReturn';
+import SignUp from './components/SignUp/SignUp';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='refund.return' element={<RefundReturn />} />
         <Route path='posts' element={<Posts />} />
         <Route path="login" element={<Login />} />
+        <Route path="signup" element={<SignUp />} />
       </Routes>
     </BrowserRouter>
   );
